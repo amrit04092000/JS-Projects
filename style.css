@@ -16,7 +16,7 @@ body{
     flex-direction: column;
 }
 .container{
-    border: 2px solid white ;
+    /*border: 2px solid white ;*/
     width: 40%;
     min-width: 450px;
     position: absolute;
@@ -99,4 +99,7 @@ body{
     border: none;
     cursor: pointer;
     outline:none;
+}
+.completed{
+    text-decoration: line-through;
 }
